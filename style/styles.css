@@ -95,7 +95,7 @@ html,body
     }
 }
 
-@media (max-width: 427px) {
+@media (max-width: 480px) {
     .head-font-size {
         font-size: 24px;
     }
