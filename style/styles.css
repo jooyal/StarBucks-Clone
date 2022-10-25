@@ -34,6 +34,16 @@
     .navbar-button-font-size {
         font-size: 13px !important;
     }
+    .card-1-image-top-bottom-padding {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+    .card-top-padding {
+        padding-top: 50px !important;
+    }
+    .card-bottom-margin {
+        margin-bottom: 50px !important;
+    }
 }
 
 @media (max-width: 1023px) {
@@ -58,7 +68,16 @@
     .navbar-button-font-size {
         font-size: 13px !important;
     }
-    
+    .card-1-image-top-bottom-padding {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+    .card-top-padding {
+        padding-top: 50px !important;
+    }
+    .card-bottom-margin {
+        margin-bottom: 50px !important;
+    }
 }
 
 @media (max-width: 412px) {
@@ -79,6 +98,16 @@
     }
     .navbar-button-font-size {
         font-size: 8px !important;
+    }
+    .card-1-image-top-bottom-padding {
+        padding-top: 0px !important;
+        padding-bottom: 30px !important;
+    }
+    .card-top-padding {
+        padding-top: 30px !important;
+    }
+    .card-bottom-margin {
+        margin-bottom: 30px !important;
     }
 }
 
@@ -179,8 +208,6 @@
 .card-1-division {
     padding-left: 0 !important;
     padding-right: 0 !important;
-    padding-top: 50px !important;
-    padding-bottom: 50px !important;
 }
 
 .card-divisions {
@@ -219,6 +246,7 @@
 
 .card-1-button {
     margin-left: 35px;
+    margin-bottom: 50px !important;
     border-width: 1px;
     border-radius: 100px;
     padding-left: 15px;
