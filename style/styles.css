@@ -31,6 +31,9 @@
     .body-font-weight {
         font-weight: 400 !important;
     }
+    .navbar-button-font-size {
+        font-size: 13px !important;
+    }
 }
 
 @media (max-width: 1023px) {
@@ -52,6 +55,9 @@
     .body-font-weight {
         font-weight: 400 !important;
     }
+    .navbar-button-font-size {
+        font-size: 13px !important;
+    }
     
 }
 
@@ -72,7 +78,7 @@
         font-size: 13px;
     }
     .navbar-button-font-size {
-        font-size: 10px;
+        font-size: 10px !important;
     }
 }
 
@@ -124,7 +130,6 @@
 .navigation-bar-text-right {
     font-weight: 900;
     color: var(--main-text-color) !important;
-    font-size: 13px !important;
     letter-spacing: 1px;
     font-family: SoDoSans !important;
     margin-right: 13px !important;
