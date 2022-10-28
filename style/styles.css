@@ -326,6 +326,7 @@ html,body
 .footer-menu-list {
     font-size: 16px;
     color: #00000094;
+    cursor: pointer;
 }
 
 .footer-menu-list:hover {
@@ -336,6 +337,10 @@ hr {
     border: 1px solid #00000094;;
     width: 90%;
     margin-left: 5%;
+}
+
+.footer-social-icon {
+    cursor: pointer;
 }
 
 .footer-copyright-text {
